@@ -106,8 +106,8 @@ export default {
     }
   },
   methods: {
-    selectAll(event){
-      event.target.select();
+    selectAll(event: Event){
+      (event.target as HTMLInputElement).select();
     }
   }
 }
