@@ -21,12 +21,6 @@
     </template>
     <div class="flex-grow-0">
       <v-alert
-        type="info"
-        v-show="!slack"
-        class="mt-4"
-        variant="outlined"
-      >The conversion happens on your device and no data is transferred anywhere else.</v-alert>
-      <v-alert
         type="error"
         v-show="noSlackEmojiFound"
         class="mt-4"
